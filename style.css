@@ -18,6 +18,7 @@
 
 .head {
     background-image: url('main.jpg');
+    width: 100%;
     object-fit: contain;
     font-size: 25px;
     position: relative;
@@ -375,7 +376,23 @@ justify-content: space-evenly;
     list-style: none;
     gap: ;
 }
-@media (max-width:800px) {
+@media screen and  (max-width:1024px) {
+   .navitem{
+    width: 40%;
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+    gap: 14px;
+    margin-top: 30px;
+   }
+   .body1in{
+    height: 500px;
+    font-size: 15px;
+    line-height: 25px;
+   }
+   .body1in h2{
+    font-size: 15px;
+   }
     .footer{
        height: 150px;
        flex-direction: column;    
@@ -423,14 +440,26 @@ justify-content: space-evenly;
         height: 1300px;
     }
     .small img{
-        width: 600px;
+        width: 100%;
     }
-    
+    #small{
+        width: 120%;
+    }
     .large img{
-        width: 600px;
-    }.body1in{
+        width: 100%;
+    }
+    .body6{
+
+    }
+    .body6 ul{
+        height: 750px;
+    }
+    .body1in{
         width: 70%;
         height: 200px;
+    }
+    .body7{
+        height: 700px;
     }
     .body7 table tr{
         flex-direction: column;
@@ -450,9 +479,18 @@ justify-content: space-evenly;
 
     }
    }
-   @media (min-width: 1024px) {
+   /* @media (min-width: 1024px) {
     .large img {
-        /* height: 300px; */
-        /* width: 500px; */
+       width: 150%;
     }
-   }
+    .small img{
+        width: 100%;
+    }
+    .list2 .large img{
+width: 125%;
+    }
+    .list2 .small img{
+        margin-left: 100px;
+        width: 350px;
+    }
+   } */
