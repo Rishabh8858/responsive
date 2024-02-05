@@ -427,7 +427,7 @@ justify-content: space-evenly;
     }
     .body4{
         /* background-color: aqua; */
-        height: 1450px;
+        height: 1800px;
     }
     .list1{
         flex-direction: column;
@@ -459,7 +459,7 @@ justify-content: space-evenly;
         height: 200px;
     }
     .body7{
-        height: 700px;
+        height: 550px;
     }
     .body7 table tr{
         flex-direction: column;
@@ -469,8 +469,15 @@ justify-content: space-evenly;
         height: 370px;
     }
     .body7 table tr input{
-        width: 110%;
+        width: 100%;
     }
+    #BT{
+        width: 85%;
+        font-size: 15px;
+        padding-right: 15px;
+        /* margin-right: 80px; */
+    }
+   
     .body7in{
         width: 80%;
     }
